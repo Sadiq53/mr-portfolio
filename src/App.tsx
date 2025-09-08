@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, type FC } from 'react';
 import './App.css';
 import Home from './components/ui/Home';
 import logo from './assets/images/PNG/logo.png'
@@ -8,11 +8,11 @@ import Services from './components/ui/Services';
 import Portfolio from './components/ui/Portfolio';
 import Contact from './components/ui/Contact';
 import Instagram from './components/icons/InstagramIcon';
-import FacebookIcon from './components/icons/FacebookIcon';
+// import FacebookIcon from './components/icons/FacebookIcon';
 import LinkedInIcon from './components/icons/LinkedInIcon';
 import WhatsappIcon from './components/icons/WhatsappIcon';
 
-const App: React.FC = () => {
+const App: FC = () => {
   const [activeSection, setActiveSection] = useState<Section>('home');
   const [backSection, setBackSection] = useState<Section | null>(null);
 
