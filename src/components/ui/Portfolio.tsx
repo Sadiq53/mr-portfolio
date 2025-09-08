@@ -254,7 +254,9 @@ const Portfolio = ({ activeSection, backSection }: PageProps) => {
                                     )}
 
                                     <video
-                                        ref={el => (videoRefs.current[idx] = el)}
+                                        ref={el => { 
+                                            videoRefs.current[idx] = el; 
+                                        }}    
                                         src={videoConfig.src}
                                         width={320}
                                         height={240}
