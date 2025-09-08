@@ -109,9 +109,14 @@ const App: FC = () => {
         {/* <div className="s-icon">
           <FacebookIcon size={20} />
         </div> */}
-        <a href='https://wa.me/8103745458?text=Hello%20I%20saw%20your%20portfolio' target='_blank' className="s-icon">
+        <a
+          href="https://wa.me/918103745458?text=Hello%20I%20saw%20your%20portfolio"
+          target="_blank"
+          className="s-icon"
+        >
           <WhatsappIcon />
         </a>
+
         <a href='https://www.linkedin.com/in/mohsin-raj-2b8aa8303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank' className="s-icon">
           <LinkedInIcon size={20} />
         </a>
